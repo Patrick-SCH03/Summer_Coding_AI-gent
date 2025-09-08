@@ -1,0 +1,18 @@
+# 환경변수
+.env
+
+# 자격 증명 파일
+credentials.json
+
+# 토큰 파일
+token.json
+
+# 파이썬 캐시 파일 
+__pycache__/
+*.pyc
+
+# 가상환경 폴더
+venv/
+
+# 데이터베이스 파일
+chroma-db/

@@ -1,0 +1,30 @@
+# AI 멀티에이전트 학생회 규정 관리 시스템 - 필수 의존성 패키지
+
+# ===== 핵심 AI 프레임워크 =====
+langgraph>=0.0.40                          # 멀티에이전트 워크플로우 오케스트레이션
+langchain>=0.2.0                           # LLM 체인 및 프롬프트 관리 
+langchain-community>=0.2.0                 # LangChain 커뮤니티 확장
+langchain-chroma>=0.1.0                    # ChromaDB와 LangChain 통합
+langchain-google-genai>=1.0.0              # Google Gemini API 통합
+
+# ===== 벡터 데이터베이스 =====
+chromadb>=0.4.0                            # 문서 임베딩 및 유사도 검색
+
+# ===== 웹 인터페이스 =====
+gradio>=4.0.0                              # 웹 UI 및 채팅 인터페이스
+
+# ===== Google 서비스 통합 =====
+google-api-python-client>=2.0.0           # Google Drive API 클라이언트
+google-auth-httplib2>=0.2.0               # Google 인증 HTTP 라이브러리
+google-auth-oauthlib>=1.0.0               # Google OAuth 인증
+
+# ===== 문서 처리 =====
+PyPDF2>=3.0.0                             # PDF 문서 처리
+python-docx>=1.1.0                        # Word 문서 처리
+
+# ===== Notion 연동 =====
+notion-client>=2.0.0                      # Notion API 클라이언트
+
+# ===== 유틸리티 라이브러리 =====
+python-dotenv>=1.0.0                      # 환경변수 관리
+requests>=2.28.0                          # HTTP 요청 처리

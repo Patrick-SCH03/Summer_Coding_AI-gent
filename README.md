@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏛️ AI 고도화 학생회 규정 관리 멀티에이전트 시스템
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -103,7 +104,7 @@ source venv/bin/activate  # Linux/Mac
 # 3. 의존성 설치
 pip install -r requirements.txt
 
-# 4. API 키 설정
+# 4. API 키 설정z
 cp .env.example .env
 
 # 5. 실행 (3가지 옵션)
@@ -218,3 +219,7 @@ Summer_coding/
 #### 📉 낮음 (저위험)
 - **안전 표현**: "위반 없음", "문제없음", "준수" 등
 - **긍정 지표**: 중위험 키워드만 1개
+=======
+# Summer_Coding_AI-gent
+>>>>>>> d5187e3135c652526f3ea7f3c73d7b1f81a076ba
+# Summer_Coding_AI-gent
